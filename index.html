@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	 <!-- add bootstrap css file -->
+
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg fixed-top ">
+	  <a class="navbar-brand" href="#header">Главная</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-4">
+	      
+	      <li class="nav-item">
+	        <a class="nav-link" data-value="about" href="#">О себе</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="portfolio" href="#">Мой стек</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="blog" href="#">Фриланс</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="team" href="#">
+	        Портфолио</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="contact" href="#">Контакты</a>
+	      </li>
+	    </ul>
+	    
+	  </div>
+</nav>
+<!-- header -->
+<header class="header " id="header">
+  <div class="overlay"></div>
+   <div class="container">
+   	  <div class="description ">
+  		<h1>Привет, Добро пожаловать!</h1>
+  		<p>
+  		На этой страничке представленны мои проекты, 
+		а так же работы, в которых я принимал участие в качестве фрилансера.
+		<details>
+			<summary class="btn">Посмотеть стек</summary><br>
+				<br><p>
+				Python<br>
+				SQLite<br>
+				Flask<br>
+				Django3<br>
+				HTML5<br> 
+				CSS3<br> 
+				Bootstrap4<br>
+				JavaScript<br>
+				Linux<br>
+				Git/GitHub</p>
+		</details>
+		</p>
+		<!--<a class="btn" href="#portfolio" >Увидеть больше</a>-->
+		<!--<button class="btn btn-outline-secondary btn-lg">See more</button>-->
+  	
+  	</div>
+   </div>
+  
+</header>
+
+<!-- about section -->
+<div class="about" id="about">
+	<div class="container">
+	  <h1 class="text-center">О себе</h1>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/linux.png" class="img-fluid">
+				<span class="text-justify">Web-разработчик</span>
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-12 desc">
+			  
+				<h3>П.Носачев</h3>
+				<p style="line-height:1rem; font-size:15px;">
+				   Знакомство с веб-разработкой у меня началось ещё на скамье университета. Тогда в качестве дипломного проекта я разработал
+				   информационный портал на связке PHP-MySQL-HTML-CSS. Затем был некий простой относительно веба и программирования в целом.
+				   Я больше занимался "железной" стороной IT. Но тяга к веб-разработке была всегда, автоматизации рутинных задач (бэкапы, сбор статистики и т.д.),
+				   стремления узнать новости web-dev.<br>
+				   Так сложилось, что уже около 2-х лет я занимаюсь этим на фрилансе и как хобби (по возможности). Спасибо пандемии.)))<br>
+				   Оглядываясь назад, я для себя решил, что именно веб-разработкой хочу заниматься на постоянной основе. Работать, изучать, "эволюционировать"
+				   в этом направлении. Некоторое время назад, я познакомился со свободными разработчиками, их основной язык программирования Python.
+				   Я углубился в его изучение и был потрясён насколько он лаконичный, мощный и популярный. И так же, как и мои знакомые, тоже захотел попробовать
+				   его во всевозможных направлениях. Те знания которые мне не удалось усвоить при изучении других языков программирования стали открыты и прозрачны при использовании Python.
+				   Так же я углубился в новые для меня технологии React, JavaScript, Docker, ngnix, т.к. для fullstack-разработчика это норма.<br>
+				   Сейчас у меня несколько проектов в работе, представленных на этой страничке и томящихся в репозиториях <a href="https://github.com/delenie1-3">githab (можно ознакомиться по ссылке)</a>. Они ещё не 
+				   идеальны, но по мере моего развития они будут дорабатываться и улучшаться. 
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Team section -->
+<div class="team" id="team">
+	<div class="container">
+	   <h1 class="text-center">Портфолио</h1>
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/portfolio/Flask.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	<p class="desp">Демонстрационный сайт разработанный на Flask</p>
+				 </div>
+				<span class="text-muted"></span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/portfolio/Python.pygame.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	 Игра разработана с использованием Python-библиотеки pygame
+				 </div>
+				<span class="text-muted"></span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/portfolio/warship.png" class="img-fluid" alt="team">
+				<div class="des">
+				 	Игра разработана на JavaScript
+				 </div>
+				<span class="text-muted">Морской бой</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/portfolio/Posts.png" class="img-fluid" alt="team">
+				 <div class="des">
+					<span class="text-muted"><a href="http://postsru.pythonanywhere.com/">Бета-версия микроблога на Flask</a></span>
+				 </div>
+				
+			</div>
+		</div>
+
+
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<!--<img src="images/" class="img-fluid" alt="team">-->
+				<div class="des">
+				 	
+				 </div>
+				<span class="text-muted"></span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<!--<img src="images/" class="img-fluid" alt="team">-->
+				<div class="des">
+				 	
+				 </div>
+				<span class="text-muted"></span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<!--<img src="images/" class="img-fluid" alt="team">-->
+				<div class="des">
+				 	 
+				 </div>
+				<span class="text-muted"></span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<!--<img src="images/" class="img-fluid" alt="team">-->
+				 <div class="des">
+				 	
+				 </div>
+				<span class="text-muted"></span>
+			</div>
+		</div>
+		</div>
+
+
+
+
+
+
+	</div>
+</div>
+
+
+
+<!-- Posts section -->
+<div class="blog" id="blog">
+	<div class="container">
+	<h1 class="text-center">Фриланс</h1>
+		<div class="row">
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/posts/casainvest.jpg" class="img-fluid">
+					</div>
+					
+					<div class="card-body">
+					<h4 class="card-title">Адаптивность</h4>
+						<p class="card-text">
+							
+							Доработка адаптивности сайта недвижимости CASAINVEST
+						</p>
+					</div>
+					<div class="card-footer">
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/posts/neonila.jpg" class="img-fluid">
+					</div>
+					
+					<div class="card-body">
+					   <h4 class="card-title">Адаптивность, функционал</h4>
+						<p class="card-text">
+							
+							Доработка адаптивности сайта. Добавление соц.кнопок, форм.
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="http://неонилла.рф/" class="card-link">неонилла.рф</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/posts/pixelperfect.jpg" class="img-fluid">
+					</div>
+					
+					<div class="card-body">
+					<h4 class="card-title">Pixel Perfect</h4>
+						<p class="card-text">
+							
+							Pixel Perfect верстка интернет-магазина цветов RoseRoom
+						</p>
+					</div>
+					<div class="card-footer">
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/posts/perfectocasa.jpg" class="img-fluid">
+					</div>
+					
+					<div class="card-body">
+					<h4 class="card-title">Адаптивность</h4>
+						<p class="card-text">
+							
+							Доработка адаптивности сайта мебели Perfecto Casa
+						</p>
+					</div>
+					<div class="card-footer">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- portfolio -->
+<div class="portfolio" id="portfolio">
+     
+	<div class="container">
+		<h1 class="text-center">Мой Стек</h1>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/Flask_logo.svg" class="img-fluid"title="Flask">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/pygame_logo.png" class="img-fluid" title="pygame">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/bootstrap4.png" class="img-fluid" title="Bootstrap">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/django.png" class="img-fluid" title="django">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/python.png" class="img-fluid" title="python">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/htmlcss.png" class="img-fluid" title="html css">
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/sqlite.png" class="img-fluid" title="sqlite">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/git.png" class="img-fluid" title="git">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/javascript.png" class="img-fluid" title="javascript">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Contact form -->
+<div class="contact-form" id="contact">
+	<div class="container">
+		<h1 class="text-center">Контакты</h1>
+		<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/gmail.png" class="img-fluid" title="gmail">
+				<p style="text-align:center;">delenie1.3@gmail.com</p>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<img src="images/hh.png" class="img-fluid" title="hh.ru">
+			<p style="text-align:center;"><a href="https://hh.ru/resume/29774710ff015f9c190039ed1f723336355962">Моё резюме hh.ru</a></p>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12">
+		<img src="images/github.png" class="img-fluid" title="github">
+				<p style="text-align:center;"><a href="https://github.com/delenie1-3">Мои репозитории GitHub</a></p>
+		</div>
+		</div>
+	</div>
+</div>
+	
+	<footer class="footer mt-auto py-3" style="background:grey;">
+	<div class="container">
+		<div class="row">
+		<p class="text-center text-white lead">&copy; <script type="text/javascript">
+			document.write(new Date().getFullYear());
+		  </script> Начинающий Web-разработчик.</p>
+		</div>
+	</div>
+  </footer>
+<!-- add Javasscript file from js file -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src='js/main.js'></script>
+
+</body>
+</html>
